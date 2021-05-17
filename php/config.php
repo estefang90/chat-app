@@ -1,8 +1,8 @@
 <?php
   $hostname = "localhost";
-  $username = "systemsg_pablogiron";
-  $password = "giron10pablo";
-  $dbname = "systemsg_chat";
+  $username = "root";
+  $password = "";
+  $dbname = "chatapp";
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
   if(!$conn){
